@@ -3,19 +3,25 @@
   --color-primary-light: #A2DFFC;
   --color-primary-dark: #0693D4;
   --color-grey-light-1: #FAF9F9;
-  --color-grey-light-2: #F4F2F2;
+  --color-grey-light-2: #dadada;
   --color-grey-light-3: #F0EEEE;
-  --color-grey-light-4: #ccc;
+  --color-grey-light-4: #aaaaaa;
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
 
   --color-white: #fff;
-  --color-black: #000
+  --color-black: #000;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
   --line: 1px solid var(--color-grey-light-2);
 }
+
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px   1100 / 16 = 68.75em
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
 
 * {
   margin: 0;
