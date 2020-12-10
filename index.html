@@ -49,7 +49,50 @@
     </div>
     
   <div class="content">
-   <sidebar class="sidebar">sidebar</sidebar>
+  <sidebar class="sidebar">
+    <ul class="side-nav">
+      <li class="side-nav__item side-nav__item--active">
+        <a class="side-nav__link" href="#">
+          <svg class="side-nav__icon">
+            <use xlink:href="./img/sprite.svg#icon-home"></use>
+          </svg>
+          <span>HOME</span>
+        </a>
+      </li>
+      <li class="side-nav__item">
+        <a class="side-nav__link" href="#">
+          <svg class="side-nav__icon">
+            <use xlink:href="./img/sprite.svg#icon-blackboard"></use>
+          </svg>
+          <span>EQUIPMENT</span>
+        </a>
+      </li>
+      <li class="side-nav__item">
+        <a class="side-nav__link" href="#">
+          <svg class="side-nav__icon">
+            <use xlink:href="./img/sprite.svg#icon-tools"></use>
+          </svg>
+          <span>SERVICE</span>
+        </a>
+      </li>
+      <li class="side-nav__item">
+        <a class="side-nav__link" href="#">
+          <svg class="side-nav__icon">
+            <use xlink:href="./img/sprite.svg#icon-tv"></use>
+          </svg>
+          <span>PARTS</span>
+        </a>
+      </li>
+    </ul>
+    <div class="legal">
+      &copy; 2020 &#8211; <span id="year"></span> Medical Device, All rights reserved.
+    </div>
+
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+    </sidebar>
    <div class="main">main</div>
  </div>
  
