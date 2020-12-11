@@ -8,8 +8,8 @@
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass"
   },
-
   "dependencies": {
-    "sass": "^1.29.0"
+    "sass": "^1.29.0",
+    "yarn-run-all": "^3.1.1"
   }
 }
